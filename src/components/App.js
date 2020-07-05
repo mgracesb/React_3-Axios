@@ -1,9 +1,12 @@
 import React from "react";
+import SearchBar from "./SearchBar";
 
-class App extends React.Component {
-  render() {
-    return null;
-  }
-}
+const App = () => {
+  return (
+    <div className="ui container" tyle={{ marginTop: "10px" }}>
+      <SearchBar />
+    </div>
+  );
+};
 
 export default App;

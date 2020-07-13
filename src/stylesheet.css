@@ -41,7 +41,7 @@ header {
 
 .image {
   display: inline;
-  width: 30%;
+  width: 20%;
   object-fit: cover;
   object-position: 70%;
   border: 5px solid transparent;
